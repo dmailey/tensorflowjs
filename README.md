@@ -1,6 +1,6 @@
 # TensorFlow.js
 
-## Making Predictions from 2D Data
+## Tutorial: Making Predictions from 2D Data
 ### URL
 https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html
 
@@ -11,3 +11,7 @@ https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.h
 ### Best Practices
 * You should always shuffle your data before handing it to the training algorithms in TensorFlow.js.
 * You should always consider normalizing your data before training. Some datasets can be learned without normalization, but normalizing your data will often eliminate a whole class of problems that would prevent effective learning. You can normalize your data before turning it into tensors. We do it afterwards because we can take advantage of vectorization in TensorFlow.js to do the min-max scaling operations without writing any explicit for loops.
+
+---
+
+## Tutorial: Handwritten Digit Recognition with CNNs
