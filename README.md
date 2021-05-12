@@ -14,7 +14,6 @@ https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.h
 
 ### Main Takaways
 The steps in training a machine learning model include:
-
 * Formulate your task:
   * Is it a regression problem or a classification one?
   * Can this be done with supervised learning or unsupervised learning?
@@ -27,7 +26,7 @@ The steps in training a machine learning model include:
 * Build and run your model:
   * Define your model using **tf.sequential** or **tf.model** then add layers to it using **tf.layers.***
   * Choose an optimizer ( adam is usually a good one), and parameters like batch size and number of epochs.
-* Choose an appropriate loss function for your problem, and an accuracy metric to help your evaluate progress. meanSquaredError is a common loss function for regression problems.
+  * Choose an appropriate loss function for your problem, and an accuracy metric to help your evaluate progress. _meanSquaredError_ is a common loss function for regression problems.
   * Monitor training to see whether the loss is going down
 * Evaluate your model
   * Choose an evaluation metric for your model that you can monitor while training. Once it's trained, try making some test predictions to get a sense of prediction quality.
